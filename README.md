@@ -43,3 +43,4 @@ Wed Jul  1 16:31:07 2020
 |    0     23015      C   /usr/bin/python3                              87MiB |
 +-----------------------------------------------------------------------------+
 ```
+### Step 2:Install CUDA 10.2 [here](https://developer.nvidia.com/cuda-10.2-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=deblocal)
