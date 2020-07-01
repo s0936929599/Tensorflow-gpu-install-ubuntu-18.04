@@ -22,7 +22,9 @@ sudo reboot
 **Check install successfully or not**
 ```
 nvidia-smi
------------------------------------------------------------
+```
+
+```
 Wed Jul  1 16:31:07 2020       
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 440.100      Driver Version: 440.100      CUDA Version: 10.2     |
@@ -73,10 +75,13 @@ sudo ldconfig
 ```
 
 **Check ENV variables**
-
 ```
 nvcc -V
------------------------------------------------------------
+
+```
+
+```
+
 nvcc: NVIDIA (R) Cuda compiler driver
 Copyright (c) 2005-2019 NVIDIA Corporation
 Built on Wed_Oct_23_19:24:38_PDT_2019
@@ -97,7 +102,9 @@ sudo dpkg -i libcudnn7_7.6.5.32-1+cuda10.2_amd64.deb
 from tensorflow.python.client import device_lib
 
 print(device_lib.list_local_devices())
------------------------------------------------------------
+```
+
+```
 [name: "/device:CPU:0"
 device_type: "CPU"
 memory_limit: 268435456
