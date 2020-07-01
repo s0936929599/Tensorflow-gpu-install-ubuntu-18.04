@@ -89,7 +89,7 @@ Built on Wed_Oct_23_19:24:38_PDT_2019
 Cuda compilation tools, release 10.2, V10.2.89
 
 ```
-### Step 4:Download cuDNN v7.6.5 and install   [Here](https://developer.nvidia.com/rdp/cudnn-download)
+### Step 4:Download cuDNN v7.6.5[Here](https://developer.nvidia.com/rdp/cudnn-download) and install
 ```
 sudo dpkg -i libcudnn7_7.6.5.32-1+cuda10.2_amd64.deb
 
