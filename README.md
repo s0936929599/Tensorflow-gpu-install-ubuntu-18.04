@@ -94,7 +94,7 @@ sudo dpkg -i libcudnn7_7.6.5.32-1+cuda10.2_amd64.deb
 
 ```
 ### Step 5: Install tensorlow-gpu
-  ~~pip3 install tensorflow~~  -> pip3 install tensorflow-gpu==1.14.0 
+  ~~pip3 install tensorflow-gpu~~  -> pip3 install tensorflow-gpu==1.14.0 
 
 ##### Verify your tensorflow installation in python
 
