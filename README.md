@@ -1,7 +1,7 @@
 # Tensorflow GPU install on ubuntu 18.04(2020/7/1)
 
 ## RTX2060 super + CUDA v10.2 + cuDNN v7.6.5
-------------------------------------------------------------------------------------------
+
 ### Step 0: Uninstall any Nvidia files before
 ```
 
