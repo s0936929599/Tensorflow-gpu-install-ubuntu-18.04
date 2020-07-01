@@ -22,8 +22,9 @@ sudo reboot
 **Check install successfully or not**
 ```
 nvidia-smi
-```
 
+```
+Output:
 ```
 Wed Jul  1 16:31:07 2020       
 +-----------------------------------------------------------------------------+
@@ -79,7 +80,7 @@ sudo ldconfig
 nvcc -V
 
 ```
-
+Output:
 ```
 
 nvcc: NVIDIA (R) Cuda compiler driver
@@ -94,16 +95,16 @@ sudo dpkg -i libcudnn7_7.6.5.32-1+cuda10.2_amd64.deb
 
 ```
 ### Step 5:Install tensorlow-gpu
-**  ~~pip3 install tensorflow~~  -> pip3 install tensorflow-gpu==1.14.0 **
+  ~~pip3 install tensorflow~~  -> pip3 install tensorflow-gpu==1.14.0 
 
-##### Verify your tensorflow installation
+##### Verify your tensorflow installation in python
 
 ```
 from tensorflow.python.client import device_lib
 
 print(device_lib.list_local_devices())
 ```
-
+Output:
 ```
 [name: "/device:CPU:0"
 device_type: "CPU"
