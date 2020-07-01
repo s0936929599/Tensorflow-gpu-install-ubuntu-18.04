@@ -11,7 +11,7 @@ sudo apt-get autoclean
 sudo rm -rf /usr/local/cuda*
 
 ```
-### Step 1:Nvidia driver install
+### Step 1: Nvidia driver install
 ```
 sudo add-apt-repository -y ppa:graphics-drivers/ppa
 sudo apt-get update
@@ -22,7 +22,6 @@ sudo reboot
 **Check the installation successful or not**
 ```
 nvidia-smi
-
 ```
 Output:
 ```
@@ -49,7 +48,7 @@ Wed Jul  1 16:31:07 2020
 |    0     23015      C   /usr/bin/python3                              87MiB |
 +-----------------------------------------------------------------------------+
 ```
-### Step 2:Install CUDA v10.2 [Here](https://developer.nvidia.com/cuda-10.2-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=deblocal)
+### Step 2: Install CUDA v10.2 [Here](https://developer.nvidia.com/cuda-10.2-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=deblocal)
 
 ![image](https://github.com/s0936929599/Tensorflow-gpu-install-ubuntu-18.04/blob/master/cuda.png)
 
@@ -64,7 +63,7 @@ sudo apt-get update
 sudo apt-get -y install cuda
 
 ```
-### Step 3:Add CUDA to ENV variables
+### Step 3: Add CUDA to ENV variables
 
 ```
 sudo echo 'export PATH=/usr/local/cuda/bin:$PATH' >> ~/.bashrc
@@ -89,12 +88,12 @@ Built on Wed_Oct_23_19:24:38_PDT_2019
 Cuda compilation tools, release 10.2, V10.2.89
 
 ```
-### Step 4:Download cuDNN v7.6.5 [Here](https://developer.nvidia.com/rdp/cudnn-download) and install
+### Step 4: Download cuDNN v7.6.5 [Here](https://developer.nvidia.com/rdp/cudnn-download) and install
 ```
 sudo dpkg -i libcudnn7_7.6.5.32-1+cuda10.2_amd64.deb
 
 ```
-### Step 5:Install tensorlow-gpu
+### Step 5: Install tensorlow-gpu
   ~~pip3 install tensorflow~~  -> pip3 install tensorflow-gpu==1.14.0 
 
 ##### Verify your tensorflow installation in python
