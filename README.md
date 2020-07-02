@@ -80,9 +80,9 @@ Output:
 ```
 
 nvcc: NVIDIA (R) Cuda compiler driver
-Copyright (c) 2005-2019 NVIDIA Corporation
-Built on Wed_Oct_23_19:24:38_PDT_2019
-Cuda compilation tools, release 10.2, V10.2.89
+Copyright (c) 2005-2018 NVIDIA Corporation
+Built on Sat_Aug_25_21:08:01_CDT_2018
+Cuda compilation tools, release 10.0, V10.0.130
 
 ```
 ### Step 4: Download cuDNN v7.6.5 [Here](https://developer.nvidia.com/rdp/cudnn-download) and install
