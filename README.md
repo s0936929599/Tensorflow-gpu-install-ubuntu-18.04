@@ -129,7 +129,7 @@ physical_device_desc: "device: XLA_CPU device"
 
 ```
 
-### Optinal: If encounter cuDNN error add these in front of your code
+### Optional: If encounter cuDNN error add these in front of your code
 
 ```
 import tensorflow as tf
