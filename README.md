@@ -64,7 +64,7 @@ sudo apt-get install cuda-toolkit-10-0
 
 ```
 sudo echo 'export PATH=/usr/local/cuda/bin:$PATH' >> ~/.bashrc
-sudo echo 'exportLD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64'>> ~/.bashrc
+sudo echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64'>> ~/.bashrc
 sudo echo 'export CUDA_HOME=/usr/local/cuda' >> ~/.bashrc
 source ~/.bashrc
 sudo ldconfig
