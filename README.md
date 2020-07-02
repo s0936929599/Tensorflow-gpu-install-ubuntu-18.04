@@ -60,12 +60,14 @@ sudo apt-get update
 sudo apt-get install cuda-toolkit-10-0
 
 ```
-### Step 3: Add CUDA to ENV variables
+### Step 3: Add CUDA to ENV variables(path:~/.bashrc)
 
 ```
-sudo echo 'export PATH=/usr/local/cuda/bin:$PATH' >> ~/.bashrc
-sudo echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64'>> ~/.bashrc
-sudo echo 'export CUDA_HOME=/usr/local/cuda' >> ~/.bashrc
+export PATH=/usr/local/cuda-10.0/bin${PATH:+:$PATH}
+export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64:$LD_LIBRARY_PATH
+```
+
+```
 source ~/.bashrc
 sudo ldconfig
 
@@ -93,7 +95,7 @@ sudo dpkg -i libcudnn7_7.6.5.32-1+cuda10.0_amd64.deb
 ### Step 5: Install tensorlow-gpu and Keras
   ~~pip3 install tensorflow-gpu~~  -> pip3 install tensorflow-gpu==1.14.0 
   
-  ~~pip3 install keras~~  -> pip3 install keras==2.2.4
+  ~~pip3 install keras~~  -> pip3 install keras==2.3.1
 ##### Verify your tensorflow installation in python
 
 ```
