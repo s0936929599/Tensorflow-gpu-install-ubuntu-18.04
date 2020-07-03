@@ -5,11 +5,11 @@ from keras.utils import np_utils, plot_model
 from keras.datasets import mnist
 import matplotlib.pyplot as plt
 
-import tensorflow as tf
+#import tensorflow as tf
 
-config = tf.ConfigProto()
-config.gpu_options.allow_growth = True
-sess = tf.Session(config=config)
+#config = tf.ConfigProto()
+#config.gpu_options.allow_growth = True
+#sess = tf.Session(config=config)
 
 # Mnist Dataset
 (X_train, Y_train), (X_test, Y_test) = mnist.load_data()
