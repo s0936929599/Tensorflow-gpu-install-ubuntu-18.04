@@ -62,6 +62,8 @@ sudo apt-get install cuda-toolkit-10-0
 ```
 ### Step 3: Add CUDA to ENV variables(path:~/.bashrc)
 
+**Open .bashrc and add below commands to the bottom**
+
 ```
 export PATH=/usr/local/cuda-10.0/bin${PATH:+:$PATH}
 export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64:$LD_LIBRARY_PATH
